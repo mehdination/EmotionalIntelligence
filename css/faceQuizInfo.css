@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+* {
+  font-family: 'Space Mono', monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bottomRight {
+  position: relative;
+  bottom: 0;
+  right: 0;
+}
+
+body {
+  background: linear-gradient(#e66465, #9198e4);
+}
+
+img {
+  display: block;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+#results {
+  color: green;
+}
+
+.body {
+  background-image: url("images/bkground.jpg");
+  border-style: solid;
+  border-radius: 2px;
+  margin: 15px;
+  padding: 5px;
+}

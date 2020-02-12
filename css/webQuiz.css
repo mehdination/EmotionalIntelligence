@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+  font-family: "Source Sans Pro", tahoma, serif;
+  font-size: 25px;
+  line-height: 1.6em;
+  background: url("../images/bkgr2.jpg");
+  background-size: cover;
+}
+
+.faces {
+  height: 332px;
+  width: 499px;
+  display: block;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  font-size: 22px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.quizContainer {
+  width: 71%;
+  margin: 70px auto;
+  overflow: hidden;
+}
+
+.pullLeft {
+  float: left;
+}
+
+.pullRight {
+  float: right;
+}
+
+header {
+  background-color: #39CCCC;
+  color: #ffffff;
+  padding: 6px 11px;
+  overflow: auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #39CCCC;
+  color: #ffffff;
+  padding: 6px 11px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+button {
+  font-size: 18px;
+  background-color: #4cea09;
+  color: white;
+  font-weight: lighter;
+  border-radius: 17px;
+  width: auto;
+  height: 50px;
+  cursor: pointer;
+}
+
+#results-container {
+  display: none;
+}
+
+.results-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.imgans {
+  display: block;
+  max-width: 400px;
+  width: auto;
+  height: auto;
+}
+
+#reset {
+  font-size: 15px;
+  background-color: #FF4136;
+  border-radius: 15px;
+  height: 45px;
+}
+
+#reset:hover {
+  background-color: red;
+}
+
+input {
+  height: 16px;
+  width: 16px;
+}
+
+input:checked {
+  width: 20px;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE HTML>
+<!--
+Name: Mehdi Mihir
+-->
+<html>
+
+<head>
+	<title>Facial Recognition Quiz</title>
+	<style> </style>
+	<link rel="stylesheet" href="../../css/faceQuiz.css">
+</head>
+
+<body onload="initialize();">
+
+	<div class="quizContainer">
+		<header>
+			<div class="pullLeft">Emotional Perceptions</div>
+			<div class="pullRight">Facial Recognition Quiz</div>
+		</header>
+		<main>
+			<form class="questionForm" id="q1">
+				<h3>1. This face is expressing what emotion</h3>
+				<img src="../../images/face1.jpg" alt="face1" class="faces">
+				<ul>
+					<li><input type="radio" name="q1" value="a">Ashamed</li>
+					<li><input type="radio" name="q1" value="b">Irritated</li>
+					<li><input type="radio" name="q1" value="c">Flirtatious</li>
+					<li><input type="radio" name="q1" value="d">Happy</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q2">
+				<h3>2. This face is expressing what emotion</h3>
+				<img src="../../images/face2.jpg" alt="face2" class="faces">
+				<ul>
+					<li><input type="radio" name="q2" value="a">Proud</li>
+					<li><input type="radio" name="q2" value="b">Shocked</li>
+					<li><input type="radio" name="q2" value="c">Content</li>
+					<li><input type="radio" name="q2" value="d">Angry</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q3">
+				<h3>3. This face is expressing what emotion</h3>
+				<img src="../../images/face3.jpg" alt="face3" class="faces">
+				<ul>
+					<li><input type="radio" name="q3" value="a">Shocked</li>
+					<li><input type="radio" name="q3" value="b">Prideful</li>
+					<li><input type="radio" name="q3" value="c">Bored</li>
+					<li><input type="radio" name="q3" value="d">Overwhelmed</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q4">
+				<h3>4. This face is expressing what emotion</h3>
+				<img src="../../images/face4.jpg" alt="face4" class="faces">
+				<ul>
+					<li><input type="radio" name="q4" value="a">Insecure</li>
+					<li><input type="radio" name="q4" value="b">Depressed</li>
+					<li><input type="radio" name="q4" value="c">Surprised</li>
+					<li><input type="radio" name="q4" value="d">Uncomfortable</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q5">
+				<h3>5. This face is expressing what emotion</h3>
+				<img src="../../images/face5.jpg" alt="face5" class="faces">
+				<ul>
+					<li><input type="radio" name="q5" value="a">Disgusted</li>
+					<li><input type="radio" name="q5" value="b">Big-Hearted</li>
+					<li><input type="radio" name="q5" value="c">Compassionate</li>
+					<li><input type="radio" name="q5" val5e="d">Annoyed</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q6">
+				<h3>6. This face is expressing what emotion</h3>
+				<img src="../../images/face6.jpg" alt="face6" class="faces">
+				<ul>
+					<li><input type="radio" name="q6" value="a">Desire</li>
+					<li><input type="radio" name="q6" value="b">Flirtatious</li>
+					<li><input type="radio" name="q6" value="c">Amazed</li>
+					<li><input type="radio" name="q6" value="d">Disdained</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q7">
+				<h3>7. This face is expressing what emotion</h3>
+				<img src="../../images/face7.jpg" alt="face7" class="faces">
+				<ul>
+					<li><input type="radio" name="q7" value="a">Determined</li>
+					<li><input type="radio" name="q7" value="b">Loving</li>
+					<li><input type="radio" name="q7" value="c">Amusement</li>
+					<li><input type="radio" name="q7" value="d">Joyous</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q8">
+				<h3>8. This face is expressing what emotion</h3>
+				<img src="../../images/face8.jpg" alt="face8" class="faces">
+				<ul>
+					<li><input type="radio" name="q8" value="a">Energetic</li>
+					<li><input type="radio" name="q8" value="b">Anxious</li>
+					<li><input type="radio" name="q8" value="c">Inspired</li>
+					<li><input type="radio" name="q8" value="d">Sad</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q9">
+				<h3>9. This face is expressing what emotion</h3>
+				<img src="../../images/face9.jpg" alt="face9" class="faces">
+				<ul>
+					<li><input type="radio" name="q9" value="a">Shamed</li>
+					<li><input type="radio" name="q9" value="b">Deceptive</li>
+					<li><input type="radio" name="q9" value="c">Embarrassed</li>
+					<li><input type="radio" name="q9" value="d">Lamented</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<form class="questionForm" id="q10">
+				<h3>10. This face is expressing what emotion</h3>
+				<img src="../../images/face10.png" alt="rezaur" class="faces">
+				<ul>
+					<li><input type="radio" name="q10" value="a">Lonely</li>
+					<li><input type="radio" name="q10" value="b">Scary</li>
+					<li><input type="radio" name="q10" value="c">Edgy</li>
+					<li><input type="radio" name="q10" value="d">Uncomfortable</li>
+				</ul>
+				<button id="submitBtn">Submit</button>
+			</form>
+
+			<div id="results"></div>
+			<br />
+
+			<div id="results-container">
+				<ul class="results-row">
+					<li>1.</li>
+					<li id="uA1">You Answered: </li>
+					<li>Correct Answer: d</li>
+					<li><img src="../../images/face1ans.jpg" alt="ans1" class="imgans"></li>
+				</ul>
+
+				<ul class=" results-row">
+					<li>2.</li>
+					<li id="uA2">You Answered: </li>
+					<li>Correct Answer: d</li>
+					<li><img src="../../images/face2ans.jpg" alt="ans2" class="imgans"></li>
+				</ul>
+
+				<ul class="results-row">
+					<li>3.</li>
+					<li id="uA3">You Answered: </li>
+					<li>Correct Answer: b</li>
+					<li><img src="../../images/face3ans.jpg" alt="ans3" class="imgans"></li>
+				</ul>
+
+				<ul class="results-row">
+					<li>4.</li>
+					<li id="uA4">You Answered: </li>
+					<li>Correct Answer: c</li>
+					<li><img src="../../images/face4ans.jpg" alt="ans4" class="imgans"></li>
+				</ul>
+
+				<ul class="results-row">
+					<li>5.</li>
+					<li id="uA5">You Answered: </li>
+					<li>Correct Answer: a</li>
+					<li><img src="../../images/face5ans.jpg" alt="ans5" class="imgans"></li>
+				</ul>
+
+
+				<ul class="results-row">
+					<li>6.</li>
+					<li id="uA6">You Answered: </li>
+					<li>Correct Answer: b</li>
+					<li><img src="../../images/face6ans.jpg" alt="ans6" class="imgans"></li>
+				</ul>
+
+
+				<ul class="results-row">
+					<li>7.</li>
+					<li id="uA7">You Answered: </li>
+					<li>Correct Answer: c</li>
+					<li><img src="../../images/face7ans.jpg" alt="ans7" class="imgans"></li>
+				</ul>
+
+
+
+				<ul class="results-row">
+					<li>8.</li>
+					<li id="uA8">You Answered: </li>
+					<li>Correct Answer: d</li>
+					<li><img src="../../images/face8ans.jpg" alt="ans8" class="imgans"></li>
+				</ul>
+
+
+
+				<ul class="results-row">
+					<li>9.</li>
+					<li id="uA9">You Answered: </li>
+					<li>Correct Answer: c</li>
+					<li><img src="../../images/face9ans.jpg" alt="ans9" class="imgans"></li>
+				</ul>
+
+
+
+				<ul class="results-row">
+					<li>10.</li>
+					<li id="uA10">You Answered: </li>
+					<li>Correct Answer: b</li>
+					<li><img src="../../images/face10ans.png" alt="ans10" class="imgans"></li>
+				</ul>
+
+
+		</main>
+
+		<footer>
+			<div class="pullLeft">Total: 10 Questions</div>
+			<button class="pullRight" id="reset" onclick="resetTest();">Reset</button>
+		</footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="../../js/utilities.js"></script>
+	<script src="../../js/Emotional_IQ.js"></script>
+</body>
+
+</html>
